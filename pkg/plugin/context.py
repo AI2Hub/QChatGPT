@@ -31,7 +31,7 @@ class APIHost:
         ge: str,
         le: str='v999.999.999',
     ) -> bool:
-        """插件版本要求装饰器
+        """插件版本要求
 
         Args:
             ge (str): 最低版本要求
